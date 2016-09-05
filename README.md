@@ -40,7 +40,7 @@ At this point if we execute the binary with:
 
 We receive the following error:
 
-`$./dynamically_linked: error while loading shared libraries: liblibreria.so: cannot open shared object file: No such file or directory`
+`$ ./dynamically_linked: error while loading shared libraries: liblibreria.so: cannot open shared object file: No such file or directory`
 
 To solve that is necesary to add a variable to the path, the LD_LIBRARY_PATH with two simple comands:
 
